@@ -1,4 +1,4 @@
 Mumupedia
 =========
 
-Site d'information
+Site d'information 
