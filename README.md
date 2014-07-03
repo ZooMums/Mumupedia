@@ -1,4 +1,0 @@
-Mumupedia
-=========
-
-Site d'information 
