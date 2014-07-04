@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="atom-md.png">
+    <link rel="icon" href="images/atom-md.png">
 
     <title>Mumupédia</title>
 
@@ -16,9 +16,12 @@
     <link href="css/bootstrap-theme.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="theme.css" rel="stylesheet">
+    <link href="css/theme.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
    
+   <!--===========================Script==========================-->
+  <script src="http:code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="js/bootstrap.js"></script>
 
 
   
@@ -35,42 +38,45 @@
             <span class="icon-bar"></span>
           </button>
 
-          <a class="navbar-brand" href="file:///Users/admin/Desktop/Carousel.html"><img src="atom-md.png">Mumupédia</a>
+          <a class="navbar-brand" href="Carousel.html"><img src="images/atom-md.png">Mumupédia</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li><a href="file:///Users/admin/Desktop/Carousel.html">Home</a></li>
-            <li ><a href="file:///Users/admin/Desktop/Experiences.html">Experiences<span class="badge">2</span></a></li>
-             <li class="active"><a href="file:///Users/admin/Desktop/Articles.html" class="dropdown-toggle" data-toggle="dropdown">Articles <span class="badge">3</span></a></li><span class="caret"></span></a>
-           <ul class="dropdown-menu" role="menu">
-            <li role="presentation"><a role="menuitem" tabindex="-1" href="#"><b>Production</b></a></li>
-            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Conservation</a></li>
-            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Utilisation</a></li>
-            <li role="presentation" class="divider"></li>
-            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Voir aussi</a></li>
-           </ul>
+            <li><a href="Carousel.html">Home</a></li>
+            <li ><a href="Experiences.html">Experiences<span class="badge">2</span></a></li>
+             <li class=" active dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Articles <span class="badge">3</span><span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+                <li><a href="Articles.html">L'hydrogéne</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Production</a></li>
+              <li><a href="#cons">Conservation</a></li>
+              <li><a href="#">Utilisation</a></li>
+            </ul>
+          </li>
           </ul>
         </div>
       </div>
     </div>
 
     <!--==========================Moyens de production bulles==========================-->
+    <a name="Prod"></a>
     <div class="container marketing">
       <div class="row">
         <div class="col-lg-4">
-          <img class="img-rounded" src="Ttd-paris-deshydrogenation-naphtene.jpg" style="width: 300px; height: 300px;">
+          <img class="img-rounded" src="images/Ttd-paris-deshydrogenation-naphtene.jpg" style="width: 300px; height: 300px;">
             <h3>Reformage catalytique</h3>
             <p>Le reformage catalytique est un procédé qui consiste à faire réagir une molécule naphténique dans un catalyseur afin d’obtenir une molécule aromatique et d’autres part ce qui nous intéresse : de l’hydrogène. La réaction se fait sous pression et à haute température (500-550°C)</p>
         </div>
         <div class="col-lg-4">
-          <img class="img-rounded" src="Hofmann_voltameter_fr.svg.png" style="width: 250px; height: 250px;">
+          <img class="img-rounded" src="images/Hofmann_voltameter_fr.svg.png" style="width: 250px; height: 250px;">
             <h3>Electrolyse de l’eau</h3>
             <p>L’objectif d’une électrolyse et de décomposer l’eau selon les équations suivantes : <br>
-            <img src="12d9cfa8122bbbb09a4b1bbedbcf5ecd.png"><br>
-            <img src="3dfb0be6b19ddc5d5765ca6afb744854.png"></p>
+            <img src="images/12d9cfa8122bbbb09a4b1bbedbcf5ecd.png"><br>
+            <img src="images/3dfb0be6b19ddc5d5765ca6afb744854.png"></p>
         </div>
         <div class="col-lg-4">
-          <img class="img-rounded" src="220px-Fe_Hydrogenase.png" style="width: 250px; height: 250px;">
+          <img class="img-rounded" src="images/220px-Fe_Hydrogenase.png" style="width: 250px; height: 250px;">
            <h3>Les hydrogènases</h3>
             <p>L’élément central de cette réaction est la chlorophylle : c’est un pigment vert capable d’absorber le plus grand nombre possible de photons solaires. <br>Ainsi, deux électrons réducteurs associés à deux protons s’associent pour former une molécule d’hydrogène.</p>
         </div>
@@ -81,6 +87,7 @@
    
    <table class="table table-bordered table-striped table-condensed">
     <caption>
+    <a name="cons"></a>
     <h3>Etat de l'hydrogéne</h3>
     <h4 align="center">Les différents moyens de conervation de l'hydrogéne</h4>
     <p><i>Il existe principalement trois types de stockage de l'hydrogéne, utilisant les trois états de la matiére</i></p>

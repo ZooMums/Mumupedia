@@ -6,18 +6,22 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="">
 	<meta name="author" content="">
-	<link rel="icon" href="atom-md.png">
+	<link rel="icon" href="images/atom-md.png">
 
 	<title>Mumupédia</title>
 
 	<!-- Bootstrap CSS -->
-	<link href="admin/Sites/css/bootstrap.css" rel="stylesheet">
+	<link href="css/bootstrap.css" rel="stylesheet">
 	<!-- Bootstrap theme -->
-	<link href="admin/Sites/css/bootstrap-theme.min.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
 
 	<!-- Custom styles for this template -->
-	<link href="admin/Sites/theme.css" rel="stylesheet">
-	<link href="admin/Sites/css/styles.css" rel="stylesheet">
+	<link href="css/theme.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
+
+	<!--===========================Script==========================-->
+	<script src="http:code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="js/bootstrap.js"></script>
 
 
 
@@ -35,7 +39,7 @@
 					<span class="icon-bar"></span>
 				</button>
 
-				<a class="navbar-brand" href="Carousel.html"><img src="atom-md.png">Mumupédia</a>
+				<a class="navbar-brand" href="Carousel.html"><img src="images/atom-md.png">Mumupédia</a>
 			</div>
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav">
@@ -43,11 +47,11 @@
 					<li ><a href="Experiences.html">Experiences<span class="badge">2</span></a></li>
 
 					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Articles <span class="caret"></span></a>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Articles <span class="badge">3</span><span class="caret"></span></a>
 						<ul class="dropdown-menu" role="menu">
-						    <li><a href="#">L'hydrogéne</a></li>
+						    <li><a href="Articles.html">L'hydrogéne</a></li>
 							<li class="divider"></li>
-							<li><a href="#">Production</a></li>
+							<li><a href="Articles.html #Prod">Production</a></li>
 							<li><a href="#">Conservation</a></li>
 							<li><a href="#">Utilisation</a></li>
 						</ul>
@@ -72,43 +76,42 @@
 
 
 	<!--================================ Carousel ================================-->
-	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
 		<!-- Slides -->
 		<ol class="carousel-indicators">
 			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 			<li data-target="#myCarousel" data-slide-to="1"></li>
 			<li data-target="#myCarousel" data-slide-to="2"></li>
 		</ol>
-		<div class="carousel-inner">
-			<div class="item active">
-				<img src="test-molecule.jpg" class="img-responsive" alt="First slide">
+	<div class="carousel-inner">
+		<div class="item active">
+				<img src="images/test-molecule.jpg" class="img-responsive" alt="First slide">
 				<div class="container">
 					<div class="carousel-caption">
 						<h1>Production</h1>
 						<p>Un domaine à développer</p>
 						<pthis is="" an="" example="" layout="" with="" carousel="" that="" uses="" the="" bootstrap="" 3="" styles.<="" small=""><p></p></pthis>
-						<p><a class="btn btn-lg btn-primary" href="#toto" role="bouton">En savoir plus</a></p>
+						<p><a class="btn btn-lg btn-primary" href="Articles.html" role="bouton">En savoir plus</a></p>
 					</div>
 				</div>
-			</div>
 		</div>
 		<div class="item">
-			<img src="bouteilles h46198.jpg" class="img-responsive" alt="Second slide">
+			<img src="images/bouteilles h46198.jpg" class="img-responsive" alt="Second slide">
 			<div class="container">
 				<div class="carousel-caption">
 					<h1>Conservation</h1>
 					<p>Trois methodes utilisants les trois états de la matiére.</p>
-					<p><a class="btn btn-lg btn-primary" href="http://Sites/article/conservation" role="bouton">En savoir plus</a></p>
+					<p><a class="btn btn-lg btn-primary" href="#" role="bouton">En savoir plus</a></p>
 				</div>
 			</div>
 		</div>
 		<div class="item">
-			<img src="nasa.atlantis.zoom.jpg" class="img-responsive" alt="Third slide">
+			<img src="images/nasa.atlantis.zoom.jpg" class="img-responsive" alt="Third slide">
 			<div class="container">
 				<div class="carousel-caption">
 					<h1>Utilisation</h1>
 					<p>L'hydrogéne est present dans de nombreux domaines.</p>
-					<p><a class="btn btn-large btn-primary" href="http://Sites/article/utilisation" role="bouton">En savoir plus</a></p>
+					<p><a class="btn btn-large btn-primary" href="#" role="bouton">En savoir plus</a></p>
 				</div>
 			</div>
 		</div>
@@ -118,40 +121,39 @@
 		<a class="right carousel-control" href="#myCarousel" data-slide="next">
 			<span class="icon-next"></span>
 		</a>  
-	</div>             
+	</div>  
+</div>           
 
 
 	<!--=================================================HEADER=======================================-->
 
-	<a name="toto"></a>
+	
 	<div class="container marketing">
 		<div class="row">
 			<div class="col-lg-4">
-				<img class="img-circle" src="test-molecule.jpg" style="width: 200px; height: 200px;" href="Articles.html">
+				<img class="img-circle" src="images/test-molecule.jpg" style="width: 300px; height: 300px;" href="Articles.html">
 				<h2>L'hydrogéne</h2>
 				<p> L'hydrogéne c'est bien.<br>
 					C'est même tres tres bien.</p>
-					<p><a class="btn btn-default" href="file:///Users/admin/Sites/Articles.html" role="button">View Détails &raquo;</a></p>
+					<p><a class="btn btn-default" href="Articles.html" role="button">En savoir plus &raquo;</a></p>
 			</div>        
 
 			<div class="col-lg-4">L'energie propre, c'est bien
 			</div>
 
 			<div class="col-lg-4">
-				<img class="img-circle" src="barage.jpg" style="width: 200px; height: 200px;" href="Experiences.html" >
+				<img class="img-circle" src="images/barage.jpg" style="width: 300px; height: 300px;" href="Experiences.html" >
 				<h2>Les barrages hydroélectrique</h2>
 				<p>
 					Les Barrages sont pas mal non plus<br>
 					Vraiment pas mal.
 				</p>
-				<p><a class="btn btn-default" href="file:///Users/admin/Sites/Experiences.html" role="button">View details &raquo;</a></p>
+				<p><a class="btn btn-default" href="Experiences.html" role="button">En savoir plus &raquo;</a></p>
 			</div>
 		</div>
 	</div>
 
-	<!--===========================Script==========================-->
-	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-	<script src="js/bootstrap.js"></script>
+	
 
 
 
