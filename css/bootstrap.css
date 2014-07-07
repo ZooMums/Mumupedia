@@ -11,8 +11,8 @@ html {
       -ms-text-size-adjust: 100%;
 }
 body {
-  margin: 0;
-  background-color: #111111
+  margin-left: 50px;
+  margin-right: 50px; 
 }
 article,
 aside,
@@ -1101,6 +1101,7 @@ h6,
   font-size: 12px;
 }
 p {
+  font-style: #333333
   margin: 0 0 10px;
 }
 .lead {
@@ -5714,7 +5715,10 @@ button.close {
   border-left-color: #fff;
 }
 .carousel {
-  position: center;
+ 
+  width: 70%; 
+  margin-left: auto;
+  margin-right: auto;
 }
 .carousel-inner {
   position: relative;
@@ -5834,13 +5838,15 @@ button.close {
   content: '\203a';
 }
 .carousel-indicators {
-  position: absolute;
+  position: center;
   bottom: 10px;
   left: 50%;
   z-index: 15;
   width: 60%;
   padding-left: 0;
-  margin-left: -30%;
+  margin-left: auto;
+  margin-right: auto;
+  
   text-align: center;
   list-style: none;
 }

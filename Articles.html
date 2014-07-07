@@ -20,8 +20,8 @@
     <link href="css/styles.css" rel="stylesheet">
    
    <!--===========================Script==========================-->
-  <script src="http:code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script src="js/bootstrap.js"></script>
+   <script src="http:code.jquery.com/jquery-1.11.0.min.js"></script>
+   <script src="js/bootstrap.js"></script>
 
 
   
@@ -41,25 +41,31 @@
           <a class="navbar-brand" href="Carousel.html"><img src="images/atom-md.png">Mumupédia</a>
         </div>
         <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="Carousel.html">Home</a></li>
-            <li ><a href="Experiences.html">Experiences<span class="badge">2</span></a></li>
-             <li class=" active dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Articles <span class="badge">3</span><span class="caret"></span></a>
+         <ul class="nav navbar-nav">
+          <li><a href="Carousel.html">Home</a></li>
+          <li ><a href="Experiences.html">Experiences<span class="badge">2</span></a></li>
+
+          <li class="dropdown active">
+            <a class="dropdown-toggle" data-toggle="dropdown">Articles <span class="badge">3</span><span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
-                <li><a href="Articles.html">L'hydrogéne</a></li>
+              <li><a class="btn btn-default" href="Articles.html">Tous</a></li>
+              <li><a href="Articles.html#Hydro">L'hydrogéne</a></li>
               <li class="divider"></li>
-              <li><a href="#">Production</a></li>
-              <li><a href="#cons">Conservation</a></li>
-              <li><a href="#">Utilisation</a></li>
+              <li><a href="Articles.html#Prod">Production</a></li>
+              <li><a href="Articles.html#cons">Conservation</a></li>
+              <li><a href="Articles.html#use">Utilisation</a></li>
             </ul>
           </li>
-          </ul>
+         </ul>
         </div>
       </div>
     </div>
+  <a name="Hydro"></a>
+  
 
-    <!--==========================Moyens de production bulles==========================-->
+<!--============debut Hydrogene=======-->
+
+    <!--========================Moyens de production bulles=========-->
     <a name="Prod"></a>
     <div class="container marketing">
       <div class="row">
@@ -85,21 +91,20 @@
 
   <!--========================Tableau des moyens de conservation============-->
    
-   <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-striped table-condensed">
     <caption>
     <a name="cons"></a>
-    <h3>Etat de l'hydrogéne</h3>
-    <h4 align="center">Les différents moyens de conervation de l'hydrogéne</h4>
+    <h1 align="left">Les différents moyens de conervation de l'hydrogéne</h1>
     <p><i>Il existe principalement trois types de stockage de l'hydrogéne, utilisant les trois états de la matiére</i></p>
     </caption>
-    <thead>
-    <tr>
+     <thead>
+      <tr>
        <th>Etat</th>
        <th>Principe</th>
        <th>Utilisation</th>
        <th>Avenir</th>
-    </tr>
-  </thead>
+      </tr>
+     </thead>
     <tbody>
       <tr class="danger">
         <td>Forme <b>gazeux</b> </td>
@@ -123,9 +128,11 @@
     </tbody>  
   </table>  
        <!--=========================Les utilisations=======================-->
+<a name="use"></a>
 
 
-
+<!--=====================================Footer================================-->
+<footer><p align="center"><img src="images/Esstin1.png"> <img src="images/facebook-icon.png">        <img src="images/twitter_newbird_blue.png"> <a href="Articles.html"> Revenir en haut</a></p></footer>
 
 
 
