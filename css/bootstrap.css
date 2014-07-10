@@ -6,11 +6,15 @@
 
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 html {
-  font-family: sans-serif;
+
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
 body {
+  background-image:url(deg.png)
+
+  font-family: Times, monospace;
+
   margin-left: 50px;
   margin-right: 50px; 
 }
@@ -4216,7 +4220,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
   color: #fff;
-  background-color: #080808;
+  background-color: #02fd7e;
 }
 .navbar-inverse .navbar-nav > .disabled > a,
 .navbar-inverse .navbar-nav > .disabled > a:hover,
@@ -4542,6 +4546,7 @@ a.list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
   color: #428bca;
   background-color: #fff;
+  width: auto;
 }
 .nav-pills > li > a > .badge {
   margin-left: 3px;
