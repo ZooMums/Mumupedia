@@ -34,7 +34,7 @@
         <ul class="nav navbar-nav navbar-right">
           <li><a href="Carousel.php">Home</a></li>          
           <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown">Articles<span class="badge">3</span><span class="caret"></span></a>
+            <a class="dropdown-toggle" data-toggle="dropdown">Articles<span class="badge"><?php include("Pastille.php");?></span><span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
               <li><a class="btn btn-default" href="Articles.php">Tous</a></li>
               <li><a href="Articles.php#Hydro">L'hydrogéne</a></li>
@@ -44,7 +44,7 @@
               <li><a href="Articles.php#use">Utilisation</a></li>
             </ul>
           </li>
-          <li><a href="Experiences.php">Experiences<span class="badge">2</span></a></li>
+          <li><a href="Experiences.php">Experiences</a></li>
         </ul>
       </div>
     </div>

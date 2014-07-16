@@ -1,3 +1,10 @@
+<div align="center">
+        <ul class="pagination">
+          <li class="disabled"><a href="#">&laquo;</a></li>
+          <li class="active"><a href="#">1 <span class="sr-only"></span></a></li>
+          <li><a href="#">&raquo;</a></li>
+        </ul>
+</div>
 <!--=====================Footer=====================-->
 <hr class="featurette-divider">
 <footer>
