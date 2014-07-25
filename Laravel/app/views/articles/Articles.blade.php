@@ -3,6 +3,6 @@
 
 @section('content')
 
-{{{ $data->content }}}
+{{$data->content or 'loupé'}}
 
 @stop

@@ -28,7 +28,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="{{ asset( '/home' ) }}"><img src="{{ asset( 'images/atom-md.png' ) }}"><font size="4">Mumupédia</font></a>
+        <a class="navbar-brand" href="{{ asset( '/home' ) }}"><img src="{{ asset( 'images/atom-md.png' ) }}" ><font size="4">Mumupédia</font></a>
       </div>
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
@@ -50,7 +50,7 @@
     </div>
   </div>
 </head>
-<body>
+<name="Debut">
 
 @yield('content')
 
@@ -64,7 +64,7 @@
     <img src="{{ asset( '/images/facebook-icon.png' ) }}"><img src="{{ asset( '/images/twitter_newbird_blue.png' ) }}">
   </p>
   <p align="center">
-    <a href="Experiences.html#Debut" class="gototop">Revenir en haut</a>
+    <a href="#Debut" class="gototop">Revenir en haut</a>
   </p>
 </footer>
      

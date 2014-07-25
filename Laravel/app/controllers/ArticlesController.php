@@ -11,7 +11,7 @@ class ArticlesController extends \BaseController {
  	{
 		//$data = News::all();
 		$data = News::orderBy('seen', 'desc')->get();
-		return View::make('articles/list')->with( 'articles' , $data );
+		return View::make(' 		articles/list')->with( 'articles' , $data );
 	}
 public function test()
  	{
@@ -81,6 +81,7 @@ public function test()
 		$data = News::find($id);
 		return View::make('/articles/edit')
 			->with('/articles/edit', $data);
+	
 
 	}
 
@@ -118,15 +119,6 @@ public function test()
 		return Redirect::to('/articles');
 	}
 
-	/**
-	 * Display the specified resource.
-	 *
-	 * @param  int  $id
-	 * @return Response
-	 */
-	public function showart()
-		{
-			return View::make('articles/Articles');
-		}
+	
 
 }

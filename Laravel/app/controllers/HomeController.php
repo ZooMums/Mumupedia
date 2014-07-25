@@ -24,5 +24,9 @@ class HomeController extends BaseController {
 	{
 	return View::make('/articles/home');
 	}
-
+public function index()
+ 	{
+		$data = News::all();
+		return View::make('/articles/Articles');
+	}
 }

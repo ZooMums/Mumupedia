@@ -33,8 +33,8 @@ Route::get('/', function()
 
 Route::get('/articles', 'ArticlesController@index' );
 Route::get('/articles/create' , 'ArticlesController@create');
-Route::get('/articles/delete/{title}' , 'ArticlesController@delete');
-Route::get('/articles/edit/{id}' , 'ArticlesController@edit');
+Route::get('/articles/delete/{id}' ,function($id){}, 'ArticlesController@delete');
+Route::get('/articles/edit/{id}' ,function($id){} , 'ArticlesController@edit');
 Route::get('/home' , 'HomeController@home');
-Route::get('/Articles' , 'ArticlesController@showart');
+Route::get('/Articles' , 'HomeController@index');
 Route::get('/articles/show/{id}' , 'ArticlesController@show');

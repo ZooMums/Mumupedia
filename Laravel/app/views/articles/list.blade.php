@@ -10,9 +10,7 @@
 		<div class="panel-body">
 			<p>Voici la liste des articles les plus populaires mis en ligne</p>
 		</div>
-<a href="{{ URL::to('/articles/create') }}" class="btn btn-default btn-success glyphicon glyphicon-plus">Add</a>		
-
-
+<a href="{{ URL::to('/articles/create') }}" class="btn btn-default btn-success glyphicon glyphicon-plus">Add</a>	
 		<table class="table table-striped table-bordered table-hover table-condensed">
 
 			<tr><br><br>
@@ -35,8 +33,8 @@
 					<td>{{ $article->created_at }}</td>						
 					<td>{{ $article->seen }}</td>					
 			   		<td>
-			   			<a href="{{ action('ArticlesController@edit', $article->id) }}" class="btn btn-default btn-primary glyphicon glyphicon-cog">Edit</a>
-						<a href="{{ action('ArticlesController@delete', $article->id ) }}" class="btn btn-default btn-danger glyphicon glyphicon-trash">Delete</a>
+			   			<a href="{{ action('ArticlesController@edit' , $data) }}" class="btn btn-default btn-primary glyphicon glyphicon-cog">Edit</a>
+						<a href="{{ action('ArticlesController@delete', $data ) }}" class="btn btn-default btn-danger glyphicon glyphicon-trash">Delete</a>
 			   		</td>			
 				</tr>				
 			@endforeach
